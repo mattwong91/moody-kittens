@@ -7,7 +7,7 @@
   --primary-darken: #6f8639;
   --bg: #e0d9d9;
   --shadow: 2px 0 5px rgba(49, 49, 49, 0.5);
-  --corners: 0;
+  --corners: 6px;
   --text-color: #3a3838;
   --dark: #3a3838;
   --dark-lighten: #504c4c;
@@ -127,6 +127,10 @@ button.btn-special:hover{
   filter: drop-shadow(var(--shadow));
 }
 
+.name-font{
+  font-family: 'Nanum Pen Script', cursive;
+  font-size: 28pt;
+}
 
 .kitten img{
   filter: drop-shadow(2px 4px 6px #1b1b1b);
